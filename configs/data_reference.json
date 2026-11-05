@@ -1,0 +1,194 @@
+{
+  "Spain": {
+    "file_name": "ES_60min.csv",
+    "sha256": "6b6d354113f8b069032d9d1d385e1d3f4b625e5f596776f71cc91dd820bdb49b",
+    "rows": 43825,
+    "start": "2015-01-01T00:00:00.000000000",
+    "end": "2020-01-01T00:00:00.000000000",
+    "split_bounds": {
+      "Train": [
+        0,
+        30677
+      ],
+      "Validation": [
+        30677,
+        35060
+      ],
+      "Test": [
+        35060,
+        43825
+      ]
+    },
+    "origin_hashes": {
+      "Train": "a796f4494e327758cd8d0ef21e184723499a434ead9197df42c6b4bee1264b51",
+      "Validation": "7dae235bc41d5cbf5cd988217f4a50937de6fe52bc2711293d9cddd96b01d3c1",
+      "Test": "435a7af8001a45a61e50c8a555e3aadb592926d76716ad577d696b7691b79e45"
+    },
+    "valid_windows": {
+      "Train": 29910,
+      "Validation": 4024,
+      "Test": 8215
+    },
+    "scaler_fit_hours": 30660,
+    "feature_scalers": {
+      "NetLoad": {
+        "name": "NetLoad",
+        "mean": 21657.917954990215,
+        "std": 5031.724174476054,
+        "ddof": 0
+      },
+      "load_actual": {
+        "name": "load_actual",
+        "mean": 28655.50021200261,
+        "std": 4585.930022963038,
+        "ddof": 0
+      },
+      "wind_generation_actual": {
+        "name": "wind_generation_actual",
+        "mean": 5564.21193737769,
+        "std": 3261.2070192657843,
+        "ddof": 0
+      },
+      "solar_generation_actual": {
+        "name": "solar_generation_actual",
+        "mean": 1433.3703196347033,
+        "std": 1672.4945286683142,
+        "ddof": 0
+      }
+    },
+    "target_scaler": {
+      "name": "solar_generation_actual",
+      "mean": 1433.3703196347033,
+      "std": 1672.4945286683142,
+      "ddof": 0
+    }
+  },
+  "Germany": {
+    "file_name": "DE_60min.csv",
+    "sha256": "80ce31c62b4f4f568111b661a11efc63dc7a0deacb381c5b0b2fe4f87f7a3a69",
+    "rows": 43825,
+    "start": "2015-01-01T00:00:00.000000000",
+    "end": "2020-01-01T00:00:00.000000000",
+    "split_bounds": {
+      "Train": [
+        0,
+        30677
+      ],
+      "Validation": [
+        30677,
+        35060
+      ],
+      "Test": [
+        35060,
+        43825
+      ]
+    },
+    "origin_hashes": {
+      "Train": "dc5f0fbb1d3256c514f3b51ebcdcc0a08649fd0c851a6ac779aaffa7fa1d17b8",
+      "Validation": "7dae235bc41d5cbf5cd988217f4a50937de6fe52bc2711293d9cddd96b01d3c1",
+      "Test": "e568ce803318038ab64415710e92686647aaaaf16ce183bfee168cf7cd4f051f"
+    },
+    "valid_windows": {
+      "Train": 28648,
+      "Validation": 4024,
+      "Test": 8406
+    },
+    "scaler_fit_hours": 30579,
+    "feature_scalers": {
+      "NetLoad": {
+        "name": "NetLoad",
+        "mean": 41415.942640374116,
+        "std": 11485.710047588509,
+        "ddof": 0
+      },
+      "load_actual": {
+        "name": "load_actual",
+        "mean": 55723.15340593218,
+        "std": 10065.777280388838,
+        "ddof": 0
+      },
+      "wind_generation_actual": {
+        "name": "wind_generation_actual",
+        "mean": 10164.618692566793,
+        "std": 8028.782506534224,
+        "ddof": 0
+      },
+      "solar_generation_actual": {
+        "name": "solar_generation_actual",
+        "mean": 4142.592072991269,
+        "std": 6315.2555215198545,
+        "ddof": 0
+      }
+    },
+    "target_scaler": {
+      "name": "solar_generation_actual",
+      "mean": 4142.592072991269,
+      "std": 6315.2555215198545,
+      "ddof": 0
+    }
+  },
+  "Greece": {
+    "file_name": "GR_60min.csv",
+    "sha256": "c27f5658575e5581ead01cc7b85e236dc190d568130a79fbd0388dab015d0e97",
+    "rows": 43825,
+    "start": "2015-01-01T00:00:00.000000000",
+    "end": "2020-01-01T00:00:00.000000000",
+    "split_bounds": {
+      "Train": [
+        0,
+        30677
+      ],
+      "Validation": [
+        30677,
+        35060
+      ],
+      "Test": [
+        35060,
+        43825
+      ]
+    },
+    "origin_hashes": {
+      "Train": "f6a607c8f19797476ba7609f08205290d32207e05cd792026ff38bafa13f4c56",
+      "Validation": "7dae235bc41d5cbf5cd988217f4a50937de6fe52bc2711293d9cddd96b01d3c1",
+      "Test": "fe708eeef14dde083d113f5807b066d8d8d338bcd3992708967c31efc55ce3b5"
+    },
+    "valid_windows": {
+      "Train": 28322,
+      "Validation": 4024,
+      "Test": 7999
+    },
+    "scaler_fit_hours": 30632,
+    "feature_scalers": {
+      "NetLoad": {
+        "name": "NetLoad",
+        "mean": 4946.119989716625,
+        "std": 1100.9323475952656,
+        "ddof": 0
+      },
+      "load_actual": {
+        "name": "load_actual",
+        "mean": 5807.73803620397,
+        "std": 1106.0838344985561,
+        "ddof": 0
+      },
+      "wind_generation_actual": {
+        "name": "wind_generation_actual",
+        "mean": 452.1325248106653,
+        "std": 330.1951318743366,
+        "ddof": 0
+      },
+      "solar_generation_actual": {
+        "name": "solar_generation_actual",
+        "mean": 409.485521676678,
+        "std": 562.1930525345346,
+        "ddof": 0
+      }
+    },
+    "target_scaler": {
+      "name": "solar_generation_actual",
+      "mean": 409.485521676678,
+      "std": 562.1930525345346,
+      "ddof": 0
+    }
+  }
+}

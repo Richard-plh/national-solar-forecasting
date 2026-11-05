@@ -1,0 +1,107 @@
+[
+  {
+    "country": "Spain",
+    "seed": 42,
+    "encoder": "2f598c9672a87061e4d94117face159f1721ee50585558219f4a6f86ba22aa07",
+    "forecast_head": "4053982138e112008769ae4806eb32728114cd1a9baef95485628145ead15231",
+    "gate": "f166439f41c5c6a73f16ba5c2e1c20da6f2082b4cdc1d72127d87dd2fd42797e"
+  },
+  {
+    "country": "Spain",
+    "seed": 123,
+    "encoder": "07a0a8c5eb6c04f9b019ac4c3bca49aac9f2ea189f2feb9cef6ec13e660e80b9",
+    "forecast_head": "9feecb730a36785806c701d1a4dfad049ef53766a29b5c88899549fff74c6015",
+    "gate": "879ae53d0563ccef93f72ead2fab9ec886883251267a2a34637f283a262fe7ed"
+  },
+  {
+    "country": "Spain",
+    "seed": 2026,
+    "encoder": "8a18e8232f37bd5dfe85528ce924ec32bd0b5ec5529792854de573d4a9246801",
+    "forecast_head": "12e89612753359a35636c5b0baf171277b5f276e5f50e03b4f000fc405bd68fd",
+    "gate": "dfe750a2b4b280109ae600c8042de19c9a9a1f730e5efc5d544c8e65630cb57e"
+  },
+  {
+    "country": "Spain",
+    "seed": 3407,
+    "encoder": "47e27207bcbb83ae6813b7b382da239febbed96f55a0496e58745c7f8ee83fbe",
+    "forecast_head": "72ee75a6f2a88ccac9a28fd689bc7f14eea65d77d84911d132d78fdb24d42b48",
+    "gate": "89520cd8f77b86180024685087e4e100f46e0e0045b41b945b4c8096b0007231"
+  },
+  {
+    "country": "Spain",
+    "seed": 7811,
+    "encoder": "23d22e9523b3d82d782c9178c98f3d7a3d80f1e955e0fb53159322d3638c74b9",
+    "forecast_head": "8ed96057fb8c45154c688be56e74ba3fdf0c98bf0e79957959716055f3b54218",
+    "gate": "9bb898f4c568671fec46c27ae0505b8809871a0f505829691c8b6de9df9ba2e1"
+  },
+  {
+    "country": "Germany",
+    "seed": 42,
+    "encoder": "1e74c1ddeea1fb9d3b49f5cfcd7864ca1aca9fc0af31717425a5211b802d7b0d",
+    "forecast_head": "db07f0bf12222cd431dd36916f0a1b1ff26a7416defeeb761ed3ce5874e02b00",
+    "gate": "ac884080f87367b28d01588c2e9f0b32cad42171b15854d9f0d7e3b855be191e"
+  },
+  {
+    "country": "Germany",
+    "seed": 123,
+    "encoder": "213dd50423bccee5f69f6effecdeec61509c0a60e75575bab8b2f7da653eeb16",
+    "forecast_head": "7c6b6166c8c76e3b7391ae33540ecc085ec8a11fd8a0ec5d120dfca816f45735",
+    "gate": "25b54772b93726b8ca0e94326235fe57fc653a93bc0e671db881432967132dc3"
+  },
+  {
+    "country": "Germany",
+    "seed": 2026,
+    "encoder": "298cf1130ebc7478803a00a08ab8dfd39b452bf8e307af6dd348d29dbc3bfd50",
+    "forecast_head": "dd79a5bebc1e0e438dcf28901bfbb10d75b31bb1c576ca7df2022ac3bc5b09ac",
+    "gate": "1641f215826e5fb5128d19cc544de8a9de30ae069e4bf13b8f8f514459d28b3b"
+  },
+  {
+    "country": "Germany",
+    "seed": 3407,
+    "encoder": "72a93c368e6c28f3d06e9ceda35fc6aca97682b69e55ef1261428e1e399e3e8c",
+    "forecast_head": "bc42c475b2a6490ae83c9aeebf2a8ea0dc3bc076c9cd6845593768a10184abe5",
+    "gate": "29a3173b902b5323e42a12818a01b9c0ecab9cd60eb031f328306cd24c40c88b"
+  },
+  {
+    "country": "Germany",
+    "seed": 7811,
+    "encoder": "238af421d06efaffb73e78a1a34d4fb60617223d0f6f5bcda5c929c8c44e0f5c",
+    "forecast_head": "b259f9b8349131803b8ba29a52ae557eca5556194f065dc76754a299d655a671",
+    "gate": "fe004b2aa954ff63eecf0bb4a2e675235ed6169a12727128650c510926fbe3de"
+  },
+  {
+    "country": "Greece",
+    "seed": 42,
+    "encoder": "e839e513dd06597da40d343101c335639b77820bbff56fd95c81286fc8b72250",
+    "forecast_head": "75ba29eb101139ab3862bc533c4c76647966593e55ca3899a1a3a014e77ad3e8",
+    "gate": "a06c291da4000cf63683141e21a58dded50a43a33c3f1854f63b060e6cb97cb3"
+  },
+  {
+    "country": "Greece",
+    "seed": 123,
+    "encoder": "944bf02d5d11ba4b5071e416389550b3f8ea40c14d4e76fcf59a929807be1ae5",
+    "forecast_head": "7370907cb0000c7715aa25aaca84f657c2c465e7e06b5b77fa44a5217ed22505",
+    "gate": "e29569a816dd65b3067e718ead1164ee76f481e35f7a60ce15b1e5eec9b7e6bc"
+  },
+  {
+    "country": "Greece",
+    "seed": 2026,
+    "encoder": "501bc30887f57f51edaca3559d748fe8e36d289e871ecb80f20e05840904f03c",
+    "forecast_head": "701c5ff4d5b29d1cfbfff32ae109b39fe220763925887b1225234812d855964c",
+    "gate": "55a0329981d913d257fbd1595052b0ff7b270219c10beda5076c4d868482b872"
+  },
+  {
+    "country": "Greece",
+    "seed": 3407,
+    "encoder": "9d5b93fc3289a472f0d75b25722c7e941c0ef04f616b93fb24fb147b1ee647dd",
+    "forecast_head": "534d59d690177fcd2af8840e1fde4583c9a063506157b5e7665f78b5aa9fd6e9",
+    "gate": "9dc427b685c0ff0e3a4106abf0c93d438507615a4c0e624cc6c692c564f60067"
+  },
+  {
+    "country": "Greece",
+    "seed": 7811,
+    "encoder": "b45cd2d11a301f69d18accbb22dc8c8a03f49b608d7bf33e12d0f1d7b4b51b67",
+    "forecast_head": "3eb960348cac591a18af8d4627add52968ea527aca4c8efda7b1938357b4cfc9",
+    "gate": "e823de60a0c33f78d28be48e0ddf6c1743bdd0495f83664ee3f6f4503af95175"
+  }
+]

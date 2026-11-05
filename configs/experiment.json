@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "task": "national_solar_forecasting",
+  "target": "solar_generation_actual",
+  "unit": "MW",
+  "countries": [
+    "Spain",
+    "Germany",
+    "Greece"
+  ],
+  "models": [
+    "equal-fusion",
+    "global-fusion",
+    "horizon-fusion",
+    "trajectory-supervision",
+    "state-supervision",
+    "joint-supervision"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026,
+    3407,
+    7811
+  ],
+  "features": [
+    "NetLoad",
+    "load_actual",
+    "wind_generation_actual",
+    "solar_generation_actual",
+    "hour_sin",
+    "hour_cos",
+    "dayofweek_sin",
+    "dayofweek_cos",
+    "month_sin",
+    "month_cos"
+  ],
+  "lookbacks_hours": [
+    12,
+    24,
+    48,
+    96,
+    168,
+    336
+  ],
+  "horizon_hours": 24,
+  "preprocessing_version": "complete_hourly_windows_v1",
+  "temporal_split": [
+    0.7,
+    0.1,
+    0.2
+  ],
+  "training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "batch_size": 64,
+    "max_epochs": 80,
+    "patience": 12,
+    "precision": "FP32",
+    "selection_metric": "Validation standardized Solar MAE",
+    "num_workers": 0,
+    "amp": false,
+    "scheduler": null,
+    "gradient_clipping": null,
+    "gradient_accumulation": false
+  },
+  "thresholds": {
+    "Spain": {
+      "q30_MW": 18.0,
+      "q80_MW": 591.0,
+      "active_MW": 245.55
+    },
+    "Germany": {
+      "q30_MW": 0.0,
+      "q80_MW": 2408.0,
+      "active_MW": 925.0500000000001
+    },
+    "Greece": {
+      "q30_MW": 0.0,
+      "q80_MW": 261.0,
+      "active_MW": 79.4
+    }
+  },
+  "loss_weights": {
+    "trajectory": 1.0,
+    "classification": 1.0
+  },
+  "curve_seed": 42,
+  "curve_dates": {
+    "Validation": [
+      "2018-08-21 00:00",
+      "2018-12-21 00:00"
+    ],
+    "Test": [
+      "2019-06-21 00:00",
+      "2019-12-21 00:00"
+    ]
+  }
+}
