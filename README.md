@@ -26,6 +26,8 @@ Linux/macOS激活命令为`source .venv/bin/activate`。也可以在安装后使
 
 也可先在独立环境中安装`requirements-repro.txt`，再执行`python -m pip install -e . --no-deps`。若只需CPU，可先执行`python -m pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu`，再安装项目。确定性设置、初始化及采样规则均已记录；不同PyTorch版本、CUDA后端和硬件之间不保证逐位一致。不要用最新版本替代指定版本后，修改参考哈希来绕过初始化检查。
 
+**严格复现的已知环境限制：**初始化哈希基准来自Windows、Python 3.13.5和PyTorch 2.11.0+cu128，本地120项测试通过。GitHub Ubuntu CPU环境即使固定到PyTorch 2.11.0，仍有15项参考初始化哈希检查不匹配，另105项测试通过；差异的具体原因尚未完全定位。因此，当前不能宣称Linux环境已通过严格复现验收。训练入口保留初始化哈希拒绝机制，不通过重写参考值或跳过检查消除差异。CI分别保留两种系统的实际检查结果。
+
 ## 2. 数据准备与复现限制
 
 数据来源标识为Open Power System Data（OPSD）Time Series，版本2020-10-06，DOI：[10.25832/time_series/2020-10-06](https://doi.org/10.25832/time_series/2020-10-06)。本实验实际使用的是已固定的国家小时CSV，**不是未经处理的OPSD总表**。
