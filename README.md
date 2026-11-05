@@ -10,7 +10,7 @@
 
 - Python 3.11及以上；已完成实验的环境为Python 3.13.5。
 - PyTorch、NumPy、pandas；绘图需要Matplotlib，测试需要pytest。
-- 已验证实验版本记录于`requirements-repro.txt`。PyTorch的CPU/CUDA发行包应按设备选择，不应直接覆盖已有科研环境。
+- 已验证实验版本记录于`requirements-repro.txt`，默认安装及自动测试也固定到这些版本，以便核对保存的初始化哈希。PyTorch的CPU/CUDA发行包应按设备选择，不应直接覆盖已有科研环境。
 
 建议在项目目录创建独立环境：
 
@@ -24,7 +24,7 @@ solar-forecast --help
 
 Linux/macOS激活命令为`source .venv/bin/activate`。也可以在安装后使用`python -m solar_forecasting`替代`solar-forecast`。
 
-若需要匹配已完成实验的软件版本，可先在独立环境中安装`requirements-repro.txt`，再执行`python -m pip install -e . --no-deps`。确定性设置、初始化及采样规则均已记录；不同PyTorch版本、CUDA后端和硬件之间不保证逐位一致。
+也可先在独立环境中安装`requirements-repro.txt`，再执行`python -m pip install -e . --no-deps`。若只需CPU，可先执行`python -m pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu`，再安装项目。确定性设置、初始化及采样规则均已记录；不同PyTorch版本、CUDA后端和硬件之间不保证逐位一致。不要用最新版本替代指定版本后，修改参考哈希来绕过初始化检查。
 
 ## 2. 数据准备与复现限制
 
